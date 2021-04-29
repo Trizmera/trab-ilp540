@@ -1,0 +1,185 @@
+/* Sugestao de paleta de cores: https://br.pinterest.com/pin/287667494938071351/?autologin=true
+#1A535C
+#4ECDC4
+#F7FFF7
+#FF6B6B
+#FFE66D  */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+	background: linear-gradient(to right, #4ecdc4, #1a535c);
+}
+
+.navbar h1 {
+	color: #1a535c;
+	padding: 20px;
+}
+
+.navbar li {
+	display: inline;
+	padding: 10%;
+}
+
+.navbar nav {
+	height: 50px;
+}
+
+.navbar a {
+	text-transform: uppercase;
+	font-size: 15px;
+	text-decoration: none;
+	color: #f7fff7;
+}
+
+nav a:hover {
+	color: #3292a3;
+	font-size: 16px;
+	background-color: #ffe66d;
+}
+
+.top-main {
+	height: 400px;
+	background-color: #ff6b6b;
+}
+
+.top-main video {
+	float: right;
+	border: #1a535c double 10px;
+}
+
+.top-main h3 {
+	float: left;
+	color: #f7fff7;
+	text-align: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	font-size: 30px;
+}
+
+.lista {
+	float: left;
+	padding-top: 10%;
+	margin-left: 1%;
+}
+
+.lista ul {
+	list-style-type: square;
+}
+
+.lista li {
+	font-size: 25px;
+	color: #1a535c;
+}
+
+.bottom-main {
+	height: 200px;
+	background-color: #ffe66d;
+}
+
+.bottom-main h3 {
+	float: right;
+	padding-right: 20%;
+	padding-top: 7%;
+}
+
+.bottom-main audio {
+	float: left;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+marquee {
+	background-color: #ecfdec;
+	color: #1a535c;
+	height: 20px;
+}
+
+.footer-members {
+	font-size: 15px;
+	text-align: center;
+	height: 200px;
+	padding-top: 20px;
+	background: linear-gradient(to right, #4ecdc4, #1a535c);
+}
+
+.footer-members li {
+	list-style-type: none;
+	color: #f7fff7;
+}
+
+/* register.html */
+.single-section {
+	background: linear-gradient(to right, #ff6b6b, #f7fff7);
+	height: 350px;
+	text-align: center;
+}
+
+.single-section label {
+	font-weight: bold;
+}
+
+.single-section input {
+	height: 20px;
+	padding-right: 20%;
+	margin-bottom: 10px;
+}
+
+.register-form {
+	background-color: #ffe66d;
+	width: 500px;
+	margin-left: 30%;
+	border-radius: 10px;
+}
+
+.register-form input {
+	border: none;
+}
+
+.register-form button {
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	color: #1a535c;
+	background-color: #4ecdc4;
+}
+
+.tab-section {
+	background-color: #ff6b6b;
+	height: 400px;
+}
+
+.tab-section table {
+	padding-top: 10%;
+	background-color: #ffe66d;
+	margin-left: 20%;
+	color: #1a535c;
+	padding-bottom: 5%;
+}
+
+.ancora {
+	height: 50px;
+
+	background-color: #ffe66d;
+}
+
+.ancora a {
+	text-decoration: none;
+	color: #1a535c;
+}
+
+.img-container img {
+	margin-left: 20%;
+}
+
+.img-container {
+	background-color: #ff6b6b;
+}
